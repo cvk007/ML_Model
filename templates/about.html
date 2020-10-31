@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}about{% endblock title %}
+{% block retrieveInfactive %}active{% endblock retrieveInfactive %}
+{% block body %}
+
+    <div class="section-top-border">
+        <h3 class="mb-30 mt-30" style="text-align:center">Retrieved Information</h3>
+        <div class="progress-table-wrap">
+            <div class="progress-table">
+                <div class="table-head">
+                    <div class="serial">Name</div>
+                    <div class="country">Prediction1</div>
+                    <div class="visit">Prediction2</div>
+                    <div class="visit">Prediction3</div>
+                </div>
+                    <div class="table-row">
+                        <div class="serial">{{ data.patient }}</div>
+                        <div class="serial">{{ data.name }}</div>
+                        <div class="country">{{ data.email }}</div>
+                        <div class="visit">{{ data.subject }}</div>
+                    </div>
+            </div>
+            s
+        </div>
+    </div>
+
+{% endblock body %}

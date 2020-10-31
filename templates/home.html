@@ -1,0 +1,368 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+    <!-- start banner Area -->
+    <section class="banner-area">
+        <div class="container">
+            <div class="row fullscreen align-items-center justify-content-between">
+                <div class="col-lg-5 col-md-10 banner-left">
+                    <h6>This is me</h6>
+                    <h1>Chintan Kotecha</h1>
+                    <p>
+                        Everyone in the world needs to learn to code, because its the best thing to do in life.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=spy2A6MDAvA" target="_blank"
+                       class="primary-btn text-uppercase">discover now</a>
+                </div>
+                <div class="col-lg-6 col-md-5 banner-right d-flex align-self-end">
+                    <img class="img-fluid" src="/static/img/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+
+    <!-- Start services Area -->
+    <section class="services-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content  col-lg-7">
+                    <div class="title text-center">
+                        <h1 class="mb-10">My Offered Services</h1>
+                        <p>At about this time of year, some months after New Year’s resolutions have been made and kept,
+                            or made and neglected.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <span class="lnr lnr-layers"></span>
+                        <a href="https://expertsystem.com/machine-learning-definition/" target="_blank"><h4>Machine Learning model Implementation</h4></a>
+                        <p>
+                            Machine's are developed for making our life easier and comfortable so why not code it to do
+                            it.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <span class="lnr lnr-smartphone"></span>
+                        <a href="https://en.wikipedia.org/wiki/Android_software_development" target="_blank"><h4>Android
+                            app Development</h4></a>
+                        <p>
+                            “Don’t just download the latest app, help redesign it. Don’t just play on your phone,
+                            program it.”
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <span class="lnr lnr-laptop-phone"></span>
+                        <a href="https://en.wikipedia.org/wiki/Web_application_development" target="_blank"><h4>Web
+                            Development</h4></a>
+                        <p>
+                            “A successful website does three things: It attracts the right kinds of visitors. Guides
+                            them to the main services or product you offer. Collect Contact details for future ongoing
+                            relation.”
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <span class="lnr lnr-code"></span>
+                        <a href="https://hackr.io/blog/what-is-coding-used-for" target="_blank"><h4>Coding</h4></a>
+                        <p>
+                            “If we wish to count lines of code, we should not regard them as ‘lines produced’ but as
+                            ‘lines spent.’ “
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <span class="lnr lnr-tablet"></span>
+                        <a href="https://en.wikipedia.org/wiki/Application_programming_interface" target="_blank"><h4>
+                            Apps Interface</h4></a>
+                        <p>
+                            “People ignore to know what is already developed that ignores people.”
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-services">
+                        <span class="lnr lnr-bug"></span>
+                        <a href="https://www.techopedia.com/definition/18105/bug-fix" target="_blank"><h4>Bug
+                            Solving</h4></a>
+                        <p>
+                            “If your code runs without any bugs at the first try than either you have copied or have
+                            high luck”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End services Area -->
+
+    <!-- Start fact Area -->
+    <section class="facts-area section-gap" id="facts-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 single-fact">
+                    <h1 class="counter">4</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="col-lg-3 col-md-6 single-fact">
+                    <h1 class="counter">1500</h1>
+                    <p>Happy Faces</p>
+                </div>
+                <div class="col-lg-3 col-md-6 single-fact">
+                    <h1 class="counter">700</h1>
+                    <p>Cups of Coffee</p>
+                </div>
+                <div class="col-lg-3 col-md-6 single-fact">
+                    <h1 class="counter">1</h1>
+                    <p>Real Professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end fact Area -->
+
+    <!-- Start portfolio-area Area -->
+    <section class="portfolio-area section-gap" id="portfolio">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">My Latest Codes</h1>
+                        <p>on Simple but important dailly problems.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filters">
+                <ul>
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".vector">RegExr</li>
+                    <li data-filter=".raster">Mix</li>
+                    <li data-filter=".ui">Beautiful Soup</li>
+                    <li data-filter=".printing">Password-Check</li>
+                </ul>
+            </div>
+
+            <div class="filters-content">
+                <div class="row grid">
+                    <div class="single-portfolio col-sm-4 all vector">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid" src="/static/img/p2.jpg" alt="">
+                            </div>
+                            <a href="/static/img/p2.jpg" class="img-pop-up">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="/static/img/preview.png"
+                                                                                    alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Email Verification</h4>
+                            <div class="cat">Python</div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all raster">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid" src="/static/img/p6.jpg" alt="">
+                            </div>
+                            <a href="/static/img/p6.jpg" class="img-pop-up">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="/static/img/preview.png"
+                                                                                    alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Html Parsing</h4>
+                            <div class="cat">Python</div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all ui">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid" src="/static/img/p5.jpg" alt="">
+                            </div>
+                            <a href="/static/img/p5.jpg" class="img-pop-up">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="/static/img/preview.png"
+                                                                                    alt=""></div>
+                                </div>
+                            </a>
+
+                        </div>
+                        <div class="p-inner">
+                            <h4>Bs4 implementation</h4>
+                            <div class="cat">Python</div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all printing">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid" src="/static/img/pp.jpg" alt="">
+                            </div>
+                            <a href="/static/img/p1.jpg" class="img-pop-up">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="/static/img/preview.png"
+                                                                                    alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Password Validator</h4>
+                            <div class="cat">Python</div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all vector">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid" src="/static/img/p3.jpg" alt="">
+                            </div>
+                            <a href="/static/img/p3.jpg" class="img-pop-up">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="/static/img/preview.png"
+                                                                                    alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4>String Replace</h4>
+                            <div class="cat">Python</div>
+                        </div>
+                    </div>
+                    <div class="single-portfolio col-sm-4 all raster">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                <img class="image img-fluid" src="/static/img/p4.jpg" alt="">
+                            </div>
+                            <a href="/static/img/p4.jpg" class="img-pop-up">
+                                <div class="middle">
+                                    <div class="text align-self-center d-flex"><img src="/static/img/preview.png"
+                                                                                    alt=""></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="p-inner">
+                            <h4>Working with Socket</h4>
+                            <div class="cat">Python</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End portfolio-area Area -->
+
+
+
+    <!-- Start recent-blog Area -->
+    <section class="recent-blog-area section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 pb-30 header-text">
+                    <h1>Latest posts from My blog</h1>
+                    <p>
+                        Data Gathering And Cleaning.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="single-recent-blog col-lg-4 col-md-4">
+                    <div class="thumb">
+                        <a href="https://cvk007.tumblr.com/post/616545494129410048/peer-graded-assignment-getting-your-research"
+                           target="_blank"><img class="f-img img-fluid mx-auto" src="/static/img/b1.jpg" alt=""></a>
+                    </div>
+                    <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+                        <div>
+                            <img class="img-fluid" src="/static/img/foo.jpg" height="30" width="30" alt="">
+                            <a href="https://www.tumblr.com/blog/cvk007" target="_blank"><span>cvk007</span></a>
+                        </div>
+                        <div class="meta">
+                            27th April
+                            <span class="lnr lnr-heart"></span> 07
+                            <span class="lnr lnr-bubble"></span> 07
+                        </div>
+                    </div>
+                    <a href="#">
+                        <h4>Tobacco use and dependence:
+                            NESARC Database</h4>
+                    </a>
+                    <p>
+                        To know the flow about the people first started cigarettes and than become addicted to having it
+                        50+ and also same for pipe tobacco.
+                    </p>
+                </div>
+                <div class="single-recent-blog col-lg-4 col-md-4">
+                    <div class="thumb">
+                        <a href="https://cvk007.tumblr.com/post/617169198260600832/peer-graded-assignment-running-your-first-program"
+                           target="_blank"><img class="f-img img-fluid mx-auto" src="/static/img/b2.jpg" alt=""></a>
+                    </div>
+                    <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+                        <div>
+                            <img class="img-fluid" src="/static/img/foo.jpg" height="30" width="30" alt="">
+                            <a href="https://www.tumblr.com/blog/cvk007" target="_blank"><span>cvk007</span></a>
+                        </div>
+                        <div class="meta">
+                            4th May
+                            <span class="lnr lnr-heart"></span> 07
+                            <span class="lnr lnr-bubble"></span> 07
+                        </div>
+                    </div>
+                    <a href="#">
+                        <h4>Cleaning The c.s.v. file:
+                            NESARC Database</h4>
+                    </a>
+                    <p>
+                        "Frequency of couple who married, knowing that they their partner is tobacco addict"
+                    </p>
+                </div>
+                <div class="single-recent-blog col-lg-4 col-md-4">
+                    <div class="thumb">
+                        <a href="https://cvk007.tumblr.com/post/618092753414422529/peer-graded-assignment-creating-graphs-for-your"
+                           target="_blank"><img class="f-img img-fluid mx-auto" src="/static/img/b3.jpg" alt=""></a>
+                    </div>
+                    <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+                        <div>
+                            <img class="img-fluid" src="/static/img/foo.jpg" height="30" width="30" alt="">
+                            <a href="https://www.tumblr.com/blog/cvk007" target="_blank"><span>cvk007</span></a>
+                        </div>
+                        <div class="meta">
+                            14th May
+                            <span class="lnr lnr-heart"></span> 07
+                            <span class="lnr lnr-bubble"></span> 07
+                        </div>
+                    </div>
+                    <a href="#">
+                        <h4>Analysing Database through graph:
+                            NESARC Database</h4>
+                    </a>
+                    <p>
+                        Plotting all choose variables.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end recent-blog Area -->
+
+
+{% endblock body %}
